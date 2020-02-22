@@ -4,7 +4,7 @@ from sorting.bubble_sort import *
 from data_structures.Heap import *
 from sorting.heap_sort import *
 from sorting.quick_sort import *
-
+from sorting.counting_sort import *
 
 def test_sorting():
     v = [10, 5, 2, 3, 4, 7, 11]
@@ -26,10 +26,16 @@ def test_sorting():
     #     # print("Heap Sort")
     #     # v4 = heap_sort(v)
     #     # print(v4)
+    #print("======")
+    #print("Quick Sort")
+    #v5 = quick_sort(v)
+    #print(v5)
     print("======")
-    print("Quick Sort")
-    v5 = quick_sort(v)
-    print(v5)
+    print("Counting Sort")
+    v6 = counting_sort(v)
+    print(v6)
+
+
     print("======")
 
 
