@@ -24,11 +24,11 @@ def merge(v, p, q, r):
     if i == n1:
         for jj in range(j, n2):
             v[k] = R[jj]
-            k = k + 1
+            k += 1
     if j == n2:
         for ii in range(i, n1):
             v[k] = L[ii]
-            k = k + 1
+            k += 1
 
 
 def merge_sort2(v, p, r):
